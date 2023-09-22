@@ -48,7 +48,9 @@
             <div><img src="img/hero_image.webp" alt="image of gas station" width="1575" height="990"></div>
         </section>
         <section class="about" id="about">
-            <h2 class="about__title">What about us?</h2>
+            <div>
+                <h2 class="about__title">What about us?</h2>
+            </div>
             <div class="about__wrapper">
                 <div class="about__wrapper-firstBlock">
                     <img src="img/about_img_1.webp" alt="photo of airport" width="633" height="400">
@@ -94,10 +96,15 @@
                     Laudantium, odio!</span>
             </div>
             <ul class="services__right">
-                <li class="services__right-text">Customized Procurement Solutions</li>
-                <li class="services__right-text">Contract Management</li>
-                <li class="services__right-text">Strategic Partnerships</li>
-                <li class="services__right-text">Cost Reduction</li>
+                <li class="services__right-text" onclick="changeText('Customized Procurement Solutions')">Customized
+                    Procurement
+                    Solutions</li>
+                <li class="services__right-text" onclick="changeText('Contract Management')">Contract
+                    Management</li>
+                <li class="services__right-text" onclick="changeText('Strategic Partnerships')">Strategic
+                    Partnerships</li>
+                <li class="services__right-text" onclick="changeText('Cost Reduction')">Cost Reduction
+                </li>
             </ul>
         </section>
         <section class="explore" id="explore">
@@ -147,9 +154,20 @@
                 <a href="#header"><img src="img/logo_white.svg" alt="Logo JEM white"></a>
                 <span class="footer__wrapper-text">IE “JEM” - 2023 <br> © All rights are reserved.</span>
             </div>
-            <a href="#header"><img src="img/arrow_up.svg" alt="arrow up"></a>
+
+            <a href="#header" class="footer__arrow-link">
+                <svg width="61" height="60" viewBox="0 0 61 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="30.4004" cy="30" r="30" fill="white" />
+                    <path
+                        d="M29.8745 39.75V23.6196L22.4765 31.041L20.6504 29.2383L31.1621 18.75L41.6504 29.2383L39.8711 31.041L32.4497 23.6196V39.75H29.8745Z"
+                        fill="#2A3A66" />
+                </svg>
+            </a>
         </footer>
     </main>
 </body>
+
+<script src="js/services_change_text.js"></script>
+
 
 </html>

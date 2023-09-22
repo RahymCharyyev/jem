@@ -27,16 +27,26 @@
 .believed,
 .services,
 .explore,
+.contacts,
+.footer {
+  max-width: 1920px;
+  margin: 0 auto;
+}
+
+.hero,
+.about,
+.believed,
+.services,
+.explore,
 .contacts {
-  max-width: 1620px;
-  margin: 0 150px;
+  padding: 0 150px 300px 150px;
 }
 
 .header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-top: 80px;
+  padding: 80px 150px 300px 150px;
 }
 
 .header__nav-links {
@@ -45,16 +55,42 @@
 }
 
 .header__nav-linksLink {
+  position: relative;
   text-decoration: none;
   font-size: 24px;
   color: var(--primary_color);
+}
+
+.header__nav-linksLink::before,
+.header__nav-linksLink::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: -2px;
+  background-color: var(--primary_color);
+  transition: width 0.3s ease-in-out;
+}
+
+.header__nav-linksLink::before {
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.header__nav-linksLink::after {
+  right: 50%;
+  transform: translateX(50%);
+}
+
+.header__nav-linksLink:hover::before,
+.header__nav-linksLink:hover::after {
+  width: 100%;
 }
 
 .hero {
   display: flex;
   flex-direction: column;
   gap: 100px;
-  padding: 300px 0;
 }
 
 .hero__wrapper {
@@ -85,10 +121,11 @@
 .about {
   display: flex;
   justify-content: space-between;
-  padding-bottom: 300px;
 }
 
 .about__title {
+  position: sticky;
+  top: 15px;
   font-size: 55px;
   font-weight: var(--medium);
   color: var(--secondary_color);
@@ -119,7 +156,6 @@
 .believed {
   display: flex;
   justify-content: space-between;
-  padding-bottom: 300px;
 }
 
 .believed__title {
@@ -136,7 +172,6 @@
 .services {
   display: flex;
   justify-content: space-between;
-  padding-bottom: 300px;
 }
 
 .services__left {
@@ -161,11 +196,13 @@
   display: flex;
   flex-direction: column;
   gap: 200px;
+  list-style: none;
 }
 
 .services__right-text {
   font-size: 48px;
   color: var(--primary_color);
+  font-weight: var(--light);
   cursor: pointer;
 }
 
@@ -173,7 +210,6 @@
   display: flex;
   flex-direction: column;
   gap: 167px;
-  padding-bottom: 300px;
 }
 
 .explore__wrapper {
@@ -205,7 +241,6 @@
   display: flex;
   flex-direction: column;
   gap: 112px;
-  padding-bottom: 300px;
 }
 
 .contact__title {
@@ -237,8 +272,6 @@
 }
 
 .footer {
-  max-width: 1920px;
-  margin: 0 auto;
   display: flex;
   justify-content: space-between;
   padding: 100px 150px;
@@ -254,4 +287,14 @@
 .footer__wrapper-text {
   font-size: 20px;
   color: var(--white);
+}
+
+.footer__arrow-link:hover circle {
+  fill: var(--primary_color);
+  transition: fill 0.3s ease-out;
+}
+
+.footer__arrow-link:hover path {
+  fill: var(--white);
+  transition: fill 0.3s ease-out;
 }
