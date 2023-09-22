@@ -22,13 +22,13 @@
 
 <body>
     <main>
-        <header class="header">
-            <img src="img/Logo.svg" alt="JEM logo" width="124" height="68">
+        <header class="header" id="header">
+            <a href="#header"><img src="img/Logo.svg" alt="JEM logo" width="124" height="68"></a>
             <nav class="header__nav-links">
-                <a class="header__nav-linksLink" href="#">About Us</a>
-                <a class="header__nav-linksLink" href="#">Services</a>
-                <a class="header__nav-linksLink" href="#">Collaborate</a>
-                <a class="header__nav-linksLink" href="#">Contacts</a>
+                <a class="header__nav-linksLink" href="#about">About Us</a>
+                <a class="header__nav-linksLink" href="#services">Services</a>
+                <a class="header__nav-linksLink" href="#explore">Collaborate</a>
+                <a class="header__nav-linksLink" href="#contacts">Contacts</a>
             </nav>
         </header>
         <section class="hero">
@@ -47,7 +47,7 @@
             </div>
             <div><img src="img/hero_image.webp" alt="image of gas station" width="1575" height="990"></div>
         </section>
-        <section class="about">
+        <section class="about" id="about">
             <h2 class="about__title">What about us?</h2>
             <div class="about__wrapper">
                 <div class="about__wrapper-firstBlock">
@@ -85,7 +85,7 @@
                 <img src="img/believed_img_2.webp" alt="UNDP logo" width="186" height="378">
             </div>
         </section>
-        <section class="services">
+        <section class="services" id="services">
             <div class="services__left">
                 <h2 class="services__left-title">Services</h2>
                 <span class="services__left-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, quam.
@@ -100,7 +100,7 @@
                 <li class="services__right-text">Cost Reduction</li>
             </ul>
         </section>
-        <section class="explore">
+        <section class="explore" id="explore">
             <div class="explore__wrapper">
                 <h1 class="explore__wrapper-title">Explore and enter
                     into Turkmenistan
@@ -117,7 +117,7 @@
             </div>
             <div><img src="img/explore_img.webp" alt="image of gas station" width="1575" height="990"></div>
         </section>
-        <section class="contacts">
+        <section class="contacts" id="contacts">
             <h2 class="contact__title">Contacts</h2>
             <div class="contacts__wrapper">
                 <div class="contacts__wrapper-block">
@@ -139,10 +139,16 @@
                         Business
                         Center, <br>
                         Ashgabat, Turkmenistan.</a>
-
                 </div>
             </div>
         </section>
+        <footer class="footer" id="footer">
+            <div class="footer__wrapper">
+                <a href="#header"><img src="img/logo_white.svg" alt="Logo JEM white"></a>
+                <span class="footer__wrapper-text">IE “JEM” - 2023 <br> © All rights are reserved.</span>
+            </div>
+            <a href="#header"><img src="img/arrow_up.svg" alt="arrow up"></a>
+        </footer>
     </main>
 </body>
 

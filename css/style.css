@@ -17,10 +17,8 @@
   font-weight: var(--regular);
   scroll-behavior: smooth;
   user-select: none;
-}
-
-body {
-  margin: 0 150px;
+  margin: 0;
+  padding: 0;
 }
 
 .header,
@@ -29,9 +27,9 @@ body {
 .believed,
 .services,
 .explore,
-.contacts,
-.footer {
+.contacts {
   max-width: 1620px;
+  margin: 0 150px;
 }
 
 .header {
@@ -115,7 +113,6 @@ body {
 .about__wrapper-secondBlock-text,
 .about__wrapper-thirdBlock-text {
   font-size: 20px;
-  font-weight: var(--regular);
   color: var(--primary_color);
 }
 
@@ -127,7 +124,6 @@ body {
 
 .believed__title {
   font-size: 55px;
-  font-weight: var(--regular);
   color: var(--secondary_color);
 }
 
@@ -158,7 +154,6 @@ body {
 
 .services__left-text {
   font-size: 24px;
-  font-weight: var(--regular);
   color: var(--secondary_color);
 }
 
@@ -170,7 +165,6 @@ body {
 
 .services__right-text {
   font-size: 48px;
-  font-weight: var(--regular);
   color: var(--primary_color);
   cursor: pointer;
 }
@@ -238,7 +232,26 @@ body {
 
 .contacts__wrapper-blockLink {
   font-size: 28px;
-  font-weight: var(--regular);
   color: var(--primary_color);
   text-decoration: none;
+}
+
+.footer {
+  max-width: 1920px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 100px 150px;
+  background-color: var(--secondary_color);
+}
+
+.footer__wrapper {
+  display: flex;
+  align-items: flex-end;
+  gap: 50px;
+}
+
+.footer__wrapper-text {
+  font-size: 20px;
+  color: var(--white);
 }
