@@ -1,0 +1,28 @@
+:root {
+  /* COLOR VARIABLES */
+  --primary_color: #2a3a66;
+  --secondary_color: #344880;
+  --white: #fff;
+  --link_hover: #e9283f;
+  --extra-light: 200;
+  --light: 300;
+  --regular: 400;
+  --medium: 500;
+}
+
+/* DEFAULT STYLES */
+* {
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+  font-weight: var(--regular);
+  scroll-behavior: smooth;
+  user-select: none;
+}
+
+body {
+  margin: 0 9%;
+}
+
+.test {
+  color: var(--primary_color);
+}
