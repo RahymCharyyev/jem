@@ -15,15 +15,15 @@
     <meta name="theme-color" content="#ffffff">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/aos.min.css">
 </head>
 
 <body>
     <main>
-        <header class="header" id="header" data-aos="fade-in" data-aos-delay="100">
+        <header class="header" id="header" data-aos="fade-in">
             <a href="#header"><img src="img/Logo.svg" alt="JEM logo" width="124" height="68"></a>
             <nav class="header__nav-links">
                 <a class=" header__nav-linksLink" href="#about">About Us</a>
@@ -48,8 +48,8 @@
                     market. We strive for
                     doing our best for our customers, delivering the best options of purchasing.</span>
             </div>
-            <div data-aos="fade-down"><img src="img/hero_image.webp" alt="image of gas station" width="1575"
-                    height="990"></div>
+            <div data-aos="fade-down"><img class="hero__wrapper-image" src="img/hero_image.webp"
+                    alt="image of gas station" width="1575" height="990"></div>
         </section>
         <section class="about" id="about">
             <div>
@@ -57,7 +57,8 @@
             </div>
             <div class="about__wrapper">
                 <div class="about__wrapper-firstBlock" data-aos="fade-left">
-                    <img src="img/about_img_1.webp" alt="photo of airport" width="633" height="400">
+                    <img class="about__wrapper-firstBlock-img" src="img/about_img_1.webp" alt="photo of airport"
+                        width="633" height="400">
                     <span class="about__wrapper-firstBlock-text">In a fast growing pace of Turkmenistan, billions of USD
                         investments are being made to a
                         various industries of the
@@ -68,14 +69,16 @@
                         strong sides.</span>
                 </div>
                 <div class="about__wrapper-secondBlock" data-aos="fade-left">
-                    <img src="img/about_img_2.webp" alt="photo of Business center" width="633" height="400">
+                    <img class="about__wrapper-secondBlock-img" src="img/about_img_2.webp"
+                        alt="photo of Business center" width="633" height="400">
                     <span class="about__wrapper-secondBlock-text">This is our office in Ashgabat, Abadanchylyk Frontage
                         Road, “Sport” Business Center. We are
                         always welcome to you for
                         coffe.</span>
                 </div>
                 <div class="about__wrapper-thirdBlock" data-aos="fade-left">
-                    <img src="img/about_img_3.webp" alt="photo of gas station" width="633" height="400">
+                    <img class="about__wrapper-thirdBlock-img" src="img/about_img_3.webp" alt="photo of gas station"
+                        width="633" height="400">
                     <span class="about__wrapper-thirdBlock-text">Our dedicated team of procurement professionals brings
                         years of experience to the table,
                         offering tailored solutions
@@ -87,8 +90,9 @@
         <section class="believed">
             <h2 class="believed__title" data-aos="fade-down">They believed us</h2>
             <div class="believed__wrapper" data-aos="fade-left">
-                <img src="img/believed_img_1.webp" alt="UN logo" width="267" height="276">
-                <img src="img/believed_img_2.webp" alt="UNDP logo" width="186" height="378">
+                <img class="believed__wrapper-un" src="img/believed_img_1.webp" alt="UN logo" width="267" height="276">
+                <img class="believed__wrapper-undp" src="img/believed_img_2.webp" alt="UNDP logo" width="186"
+                    height="378">
             </div>
         </section>
         <section class="services" id="services">
@@ -131,8 +135,8 @@
                     showcasing your
                     strong sides.</span>
             </div>
-            <div><img src="img/explore_img.webp" data-aos="fade-down" alt="image of gas station" width="1575"
-                    height="990"></div>
+            <div><img class="explore__wrapper-img" src="img/explore_img.webp" data-aos="fade-down"
+                    alt="image of gas station" width="1575" height="990"></div>
         </section>
         <section class="contacts" id="contacts">
             <h2 class="contact__title" data-aos="fade-down">Contacts</h2>
@@ -177,8 +181,8 @@
     </main>
 </body>
 
-<script src="js/services_change_text.js"></script>
-<script src="js/aos.min.js"></script>
-<script src="js/script.js"></script>
+<script defer src="js/services_change_text.js"></script>
+<script async src="js/aos.min.js"></script>
+<script async src="js/script.js"></script>
 
 </html>
