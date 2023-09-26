@@ -15,29 +15,41 @@
     <meta name="theme-color" content="#ffffff">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
     <link rel="stylesheet" href="css/aos.min.css">
 </head>
 
 <body>
     <main>
         <header class="header" id="header" data-aos="fade-in">
-            <a href="#header"><img src="img/Logo.svg" alt="JEM logo" width="124" height="68"></a>
+            <a href="#header"><img class="header__logo" src="img/Logo.svg" alt="JEM logo" width="124" height="68"></a>
             <nav class="header__nav-links">
-                <a class=" header__nav-linksLink" href="#about">About Us</a>
+                <a class="header__nav-linksLink" href="#about">About Us</a>
                 <a class="header__nav-linksLink" href="#services">Services</a>
                 <a class="header__nav-linksLink" href="#explore">Collaborate</a>
                 <a class="header__nav-linksLink" href="#contacts">Contacts</a>
+                <div class="header__hamburger">
+                    <div class="line1"></div>
+                    <div class="line2"></div>
+                    <div class="line3"></div>
+                </div>
+                <ul class="header__hamburger-links">
+                    <li><a href="#about" onclick="closeMenu()">About Us</a></li>
+                    <li><a href="#services" onclick="closeMenu()">Services</a></li>
+                    <li><a href="#explore" onclick="closeMenu()">Collaborate</a></li>
+                    <li><a href="#contacts" onclick="closeMenu()">Contacts</a></li>
+                </ul>
             </nav>
         </header>
         <section class="hero">
             <div class="hero__wrapper">
                 <h1 class="hero__wrapper-title" data-aos="fade-down">The Largest <br> <span
-                        class="hero__wrapper-titleLight">Industrial
-                        Procurement</span>
+                        class="hero__wrapper-titleLight">Industrial Procurement</span>
                     Company in Turkmenistan</h1>
+                <img class="hero__wrapper-mobImg" data-aos="fade-down" src="img/hero_image.webp"
+                    alt="image of gas station" width="400" height="440">
                 <span class="hero__wrapper-text" data-aos="fade-down">IE “JEM” was established in 2015 in order to set a
                     new high standard to
                     the
@@ -48,8 +60,8 @@
                     market. We strive for
                     doing our best for our customers, delivering the best options of purchasing.</span>
             </div>
-            <div data-aos="fade-down"><img class="hero__wrapper-image" src="img/hero_image.webp"
-                    alt="image of gas station" width="1575" height="990"></div>
+            <img class="hero__wrapper-image" data-aos="fade-down" src="img/hero_image.webp" alt="image of gas station"
+                width="1620" height="992">
         </section>
         <section class="about" id="about">
             <div>
@@ -125,6 +137,8 @@
                     into Turkmenistan
                     market with <span class="explore__wrapper-titleLight">JEM</span>
                 </h1>
+                <img class="explore__wrapper-mobImg" src="img/explore_img.webp" data-aos="fade-down"
+                    alt="image of gas station" width="400" height="440">
                 <span class="explore__wrapper-text" data-aos="fade-left">In a fast growing pace of Turkmenistan,
                     billions of USD investments
                     are
@@ -135,8 +149,8 @@
                     showcasing your
                     strong sides.</span>
             </div>
-            <div><img class="explore__wrapper-img" src="img/explore_img.webp" data-aos="fade-down"
-                    alt="image of gas station" width="1575" height="990"></div>
+            <img class="explore__wrapper-img" src="img/explore_img.webp" data-aos="fade-down" alt="image of gas station"
+                width="1620" height="1049">
         </section>
         <section class="contacts" id="contacts">
             <h2 class="contact__title" data-aos="fade-down">Contacts</h2>
@@ -165,12 +179,14 @@
         </section>
         <footer class="footer" id="footer">
             <div class="footer__wrapper" data-aos="fade-down">
-                <a href="#header"><img src="img/logo_white.svg" alt="Logo JEM white" width="124" height="68"></a>
+                <a href="#header"><img class="footer__wrapper-logo" src="img/logo_white.svg" alt="Logo JEM white"
+                        width="124" height="68"></a>
                 <span class="footer__wrapper-text">IE “JEM” - 2023 <br> © All rights are reserved.</span>
             </div>
 
             <a aria-label="Arrow up" href="#header" class="footer__arrow-link" data-aos="fade-down">
-                <svg width="61" height="60" viewBox="0 0 61 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <svg class="footer__arrow-linkSvg" width="60" height="60" viewBox="0 0 61 60" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
                     <circle cx="30.4004" cy="30" r="30" fill="white" />
                     <path
                         d="M29.8745 39.75V23.6196L22.4765 31.041L20.6504 29.2383L31.1621 18.75L41.6504 29.2383L39.8711 31.041L32.4497 23.6196V39.75H29.8745Z"
@@ -184,5 +200,6 @@
 <script defer src="js/services_change_text.js"></script>
 <script defer src="js/aos.min.js"></script>
 <script defer src="js/script.js"></script>
+<script defer src="js/hamburger.js"></script>
 
 </html>
