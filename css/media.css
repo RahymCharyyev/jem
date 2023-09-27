@@ -1,3 +1,312 @@
+@media screen and (max-width: 1750px) {
+  .header__nav-links {
+    gap: 25px;
+  }
+
+  .hero__wrapper {
+    gap: 112px;
+  }
+
+  .hero__wrapper-title {
+    font-size: 74px;
+  }
+
+  .hero__wrapper-text {
+    max-width: 550px;
+  }
+
+  .hero__wrapper-image {
+    height: 859px;
+  }
+
+  .about__wrapper {
+    width: 545px;
+  }
+
+  .about__wrapper-firstBlock-img,
+  .about__wrapper-secondBlock-img,
+  .about__wrapper-thirdBlock-img {
+    height: 400px;
+  }
+
+  .believed__wrapper {
+    gap: 90px;
+  }
+
+  .explore__wrapper {
+    gap: 100px;
+  }
+
+  .explore__wrapper-title {
+    font-size: 74px;
+  }
+
+  .explore__wrapper-text {
+    max-width: 670px;
+  }
+}
+
+@media screen and (max-width: 1600px) {
+  .hero,
+  .about,
+  .believed,
+  .services,
+  .explore,
+  .contacts {
+    padding: 0 80px 280px 80px;
+  }
+
+  .header {
+    padding: 80px 80px 280px 80px;
+  }
+
+  .hero {
+    gap: 95px;
+  }
+
+  .hero__wrapper {
+    gap: 90px;
+  }
+
+  .hero__wrapper-title {
+    font-size: 72px;
+  }
+
+  .hero__wrapper-text {
+    max-width: 550px;
+    font-size: 22px;
+  }
+
+  .about__title {
+    font-size: 50px;
+  }
+
+  .about__wrapper {
+    width: 540px;
+  }
+
+  .about__wrapper-firstBlock-img,
+  .about__wrapper-secondBlock-img,
+  .about__wrapper-thirdBlock-img {
+    height: 360px;
+  }
+
+  .believed__title {
+    font-size: 50px;
+  }
+
+  .believed__wrapper {
+    gap: 65px;
+  }
+
+  .services__left-title {
+    font-size: 50px;
+  }
+
+  .services__left-text {
+    font-size: 22px;
+  }
+
+  .explore {
+    gap: 100px;
+  }
+
+  .explore__wrapper-title {
+    font-size: 74px;
+  }
+
+  .explore__wrapper-text {
+    max-width: 530px;
+    font-size: 20px;
+  }
+
+  .explore__wrapper-img {
+    height: 760px;
+  }
+
+  .contact__title {
+    font-size: 50px;
+  }
+
+  .footer {
+    padding: 95px 80px;
+  }
+}
+
+@media screen and (max-width: 1450px) {
+  .hero,
+  .about,
+  .believed,
+  .services,
+  .explore,
+  .contacts {
+    padding: 0 100px 270px 100px;
+  }
+
+  .header {
+    padding: 100px 100px 270px 100px;
+  }
+
+  .hero {
+    gap: 80px;
+  }
+
+  .hero__wrapper {
+    gap: 10px;
+  }
+
+  .hero__wrapper-title {
+    font-size: 64px;
+  }
+
+  .hero__wrapper-text {
+    max-width: 470px;
+    font-size: 20px;
+  }
+
+  .hero__wrapper-image {
+    height: 700px;
+  }
+
+  .services__right-text {
+    font-size: 40px;
+  }
+
+  .explore__wrapper-title {
+    font-size: 64px;
+  }
+
+  .explore__wrapper-text {
+    font-size: 18px;
+  }
+
+  .explore__wrapper-img {
+    height: 700px;
+  }
+
+  .footer {
+    padding: 95px 100px;
+  }
+}
+
+@media screen and (max-width: 1350px) {
+  .hero,
+  .about,
+  .believed,
+  .services,
+  .explore,
+  .contacts {
+    padding: 0 125px 270px 125px;
+  }
+
+  .header {
+    padding: 125px 125px 270px 125px;
+  }
+
+  .header__nav-links {
+    gap: 20px;
+  }
+
+  .header__nav-linksLink {
+    font-size: 20px;
+  }
+
+  .hero__wrapper {
+    gap: 70px;
+  }
+
+  .hero__wrapper-title {
+    font-size: 54px;
+  }
+
+  .hero__wrapper-text {
+    max-width: 410px;
+    font-size: 18px;
+  }
+
+  .hero__wrapper-image {
+    height: 620px;
+  }
+
+  .about__title {
+    font-size: 40px;
+  }
+
+  .about__wrapper {
+    gap: 80px;
+    max-width: 475px;
+  }
+
+  .about__wrapper-firstBlock-text,
+  .about__wrapper-secondBlock-text,
+  .about__wrapper-thirdBlock-text {
+    font-size: 18px;
+  }
+
+  .about__wrapper-firstBlock-img,
+  .about__wrapper-secondBlock-img,
+  .about__wrapper-thirdBlock-img {
+    height: 310px;
+  }
+
+  .believed__title {
+    font-size: 40px;
+  }
+
+  .believed__wrapper {
+    gap: 70px;
+  }
+
+  .services__left-title {
+    font-size: 40px;
+  }
+
+  .services__left-text {
+    font-size: 18px;
+  }
+
+  .services__right-text {
+    font-size: 32px;
+  }
+
+  .explore__wrapper-title {
+    font-size: 54px;
+  }
+
+  .explore__wrapper-text {
+    max-width: 430px;
+    font-size: 16px;
+  }
+
+  .explore__wrapper-img {
+    height: 620px;
+  }
+
+  .contacts {
+    gap: 80px;
+  }
+
+  .contacts__title {
+    font-size: 40px;
+  }
+
+  .contacts__wrapper-blockText {
+    font-size: 28px;
+  }
+
+  .contacts__wrapper-blockLink {
+    font-size: 24px;
+  }
+
+  .footer {
+    padding: 70px 125px;
+  }
+
+  .footer__wrapper-text {
+    font-size: 16px;
+  }
+}
+
 @media screen and (max-width: 400px) {
   .hero,
   .about,
@@ -180,7 +489,7 @@
     gap: 50px;
   }
 
-  .contact__title {
+  .contacts__title {
     font-size: 24px;
   }
 
