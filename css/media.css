@@ -20,7 +20,7 @@
   }
 
   .about__wrapper {
-    width: 545px;
+    max-width: 545px;
   }
 
   .about__wrapper-firstBlock-img,
@@ -82,7 +82,7 @@
   }
 
   .about__wrapper {
-    width: 540px;
+    max-width: 540px;
   }
 
   .about__wrapper-firstBlock-img,
@@ -307,7 +307,7 @@
   }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 500px) {
   .hero,
   .about,
   .believed,
@@ -347,12 +347,12 @@
 
   .hero__wrapper-title {
     font-size: 35px;
-    max-width: 365px;
-    margin: 0 auto;
+    padding: 0 25px;
   }
 
   .hero__wrapper-mobImg {
     display: block;
+    width: 100%;
   }
 
   .hero__wrapper-titleLight {
@@ -360,9 +360,9 @@
   }
 
   .hero__wrapper-text {
-    max-width: 343px;
-    margin: 0 auto;
     font-size: 16px;
+    padding: 0 25px;
+    margin: 0;
   }
 
   .hero__wrapper-image {
@@ -463,8 +463,7 @@
 
   .explore__wrapper-title {
     font-size: 35px;
-    max-width: 365px;
-    margin: 0 auto;
+    padding: 0 25px;
   }
 
   .explore__wrapper-mobImg {
@@ -476,9 +475,12 @@
   }
 
   .explore__wrapper-text {
-    max-width: 343px;
-    margin: 0 auto;
     font-size: 16px;
+    padding: 0 25px;
+  }
+
+  .explore__wrapper-mobImg {
+    width: 100%;
   }
 
   .explore__wrapper-img {
