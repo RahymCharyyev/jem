@@ -169,7 +169,8 @@
 }
 
 .hero__wrapper-title {
-  font-size: 76px;
+  /* font-size: 76px; */
+  font-size: clamp(35px, 4vw, 76px);
   font-weight: var(--medium);
   color: var(--primary_color);
 }
