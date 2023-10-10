@@ -8,7 +8,7 @@
   }
 
   .hero__wrapper-title {
-    /* font-size: 74px; */
+    font-size: 74px;
   }
 
   .hero__wrapper-text {
@@ -69,7 +69,7 @@
   }
 
   .hero__wrapper-title {
-    /* font-size: 72px; */
+    font-size: 72px;
   }
 
   .hero__wrapper-text {
@@ -156,7 +156,7 @@
   }
 
   .hero__wrapper-title {
-    /* font-size: 64px; */
+    font-size: 64px;
   }
 
   .hero__wrapper-text {
@@ -216,7 +216,7 @@
   }
 
   .hero__wrapper-title {
-    /* font-size: 54px; */
+    font-size: 54px;
   }
 
   .hero__wrapper-text {
@@ -307,7 +307,7 @@
   }
 }
 
-@media screen and (max-width: 1150px) {
+@media screen and (max-width: 1200px) {
   .hero,
   .about,
   .believed,
@@ -334,7 +334,7 @@
   }
 
   .hero__wrapper-title {
-    /* font-size: 54px; */
+    font-size: 54px;
   }
 
   .hero__wrapper-text {
@@ -347,6 +347,7 @@
   }
 
   .about__title {
+    top: 50px;
     font-size: 32px;
   }
 
@@ -375,6 +376,16 @@
     gap: 90px;
   }
 
+  .believed__wrapper-undp {
+    width: 155px;
+    height: 310px;
+  }
+
+  .believed__wrapper-un {
+    height: 187px;
+    width: 190px;
+  }
+
   .services__left-title {
     font-size: 32px;
   }
@@ -392,7 +403,7 @@
   }
 
   .explore__wrapper {
-    gap: 210px;
+    gap: 300px;
   }
 
   .explore__wrapper-title {
@@ -661,7 +672,7 @@
   }
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 750px) {
   .hero,
   .about,
   .believed,
@@ -680,7 +691,7 @@
   }
 
   .hero__wrapper-title {
-    /* font-size: 35px; */
+    font-size: 40px;
     padding: 0 100px;
   }
 
@@ -721,6 +732,7 @@
   .explore__wrapper-title {
     font-size: 45px;
     padding: 0 132px;
+    text-align: center;
   }
 
   .footer {
@@ -759,7 +771,7 @@
   }
 
   .hero__wrapper-title {
-    /* font-size: 35px; */
+    font-size: 35px;
     padding: 0 25px;
     text-align: start;
   }
@@ -767,6 +779,7 @@
   .hero__wrapper-mobImg {
     display: block;
     width: 100%;
+    object-fit: cover;
   }
 
   .hero__wrapper-text {
@@ -883,6 +896,10 @@
     font-size: 16px;
     padding: 0 25px;
     text-align: start;
+  }
+
+  .explore__wrapper-mobImg {
+    object-fit: cover;
   }
 
   .contacts {

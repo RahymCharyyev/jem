@@ -169,8 +169,7 @@
 }
 
 .hero__wrapper-title {
-  /* font-size: 76px; */
-  font-size: clamp(35px, 4vw, 76px);
+  font-size: 76px;
   font-weight: var(--medium);
   color: var(--primary_color);
 }
@@ -191,10 +190,12 @@
   aspect-ratio: 1.63;
   width: 100%;
   object-fit: cover;
+  border-radius: 2px;
 }
 
 .hero__wrapper-mobImg {
   display: none;
+  border-radius: 2px;
 }
 
 .about {
@@ -236,18 +237,21 @@
   aspect-ratio: 1.37;
   width: 100%;
   object-fit: cover;
+  border-radius: 2px;
 }
 
 .about__wrapper-secondBlock-img {
   aspect-ratio: 1.38;
   width: 100%;
   object-fit: cover;
+  border-radius: 2px;
 }
 
 .about__wrapper-thirdBlock-img {
   aspect-ratio: 1.31;
   width: 100%;
   object-fit: cover;
+  border-radius: 2px;
 }
 
 .believed {
@@ -330,6 +334,7 @@
 
 .explore__wrapper-mobImg {
   display: none;
+  border-radius: 2px;
 }
 
 .explore__wrapper-titleLight {
@@ -349,6 +354,7 @@
   aspect-ratio: 1.48;
   width: 100%;
   object-fit: cover;
+  border-radius: 2px;
 }
 
 .contacts {
