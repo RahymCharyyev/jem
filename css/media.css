@@ -271,6 +271,7 @@
 
   .explore__wrapper-title {
     font-size: 54px;
+    color: yellow;
   }
 
   .explore__wrapper-text {
@@ -408,6 +409,7 @@
 
   .explore__wrapper-title {
     font-size: 44px;
+    color: red;
   }
 
   .explore__wrapper-text {
@@ -494,6 +496,7 @@
 
   .explore__wrapper-title {
     font-size: 44px;
+    color: green;
   }
 
   .explore__wrapper-text {
@@ -659,6 +662,7 @@
     max-width: 335px;
     font-size: 35px;
     text-align: center;
+    color: aqua;
   }
 
   .explore__wrapper-mobImg {
@@ -776,6 +780,7 @@
     font-size: 45px;
     max-width: 400px;
     text-align: center;
+    color: purple;
   }
 
   .footer {
