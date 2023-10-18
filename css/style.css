@@ -165,7 +165,6 @@
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
-  gap: 180px;
 }
 
 .hero__wrapper-title {
@@ -344,7 +343,7 @@
 }
 
 .explore__wrapper-text {
-  max-width: 633px;
+  max-width: 745px;
   font-size: 24px;
   font-weight: var(--regular);
   color: var(--primary_color);
