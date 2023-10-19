@@ -3,10 +3,6 @@
     gap: 25px;
   }
 
-  .hero__wrapper {
-    /* gap: 112px; */
-  }
-
   .hero__wrapper-title {
     font-size: 74px;
   }
@@ -62,10 +58,6 @@
 
   .hero {
     gap: 95px;
-  }
-
-  .hero__wrapper {
-    /* gap: 90px; */
   }
 
   .hero__wrapper-title {
@@ -151,10 +143,6 @@
     gap: 80px;
   }
 
-  .hero__wrapper {
-    /* gap: 10px; */
-  }
-
   .hero__wrapper-title {
     font-size: 64px;
   }
@@ -209,10 +197,6 @@
 
   .header__nav-linksLink {
     font-size: 20px;
-  }
-
-  .hero__wrapper {
-    /* gap: 20px; */
   }
 
   .hero__wrapper-title {
@@ -327,10 +311,6 @@
 
   .header__nav-linksLink {
     font-size: 16px;
-  }
-
-  .hero__wrapper {
-    /* gap: 10px; */
   }
 
   .hero__wrapper-title {
@@ -472,10 +452,6 @@
 
   .header {
     padding: 50px 75px 250px 75px;
-  }
-
-  .hero__wrapper {
-    /* gap: 80px; */
   }
 
   .hero__wrapper-title {
@@ -932,6 +908,7 @@
 
   .explore__wrapper-title {
     font-size: 35px;
+    text-align: start;
     padding: 0 25px;
   }
 
