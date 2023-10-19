@@ -1,26 +1,19 @@
 {
-    "name": "JEM",
-    "short_name": "JEM",
-    "start_url": "https://rahymcharyyev.github.io/jem/",
-    "icons": [
-        {
-            "src": "android-chrome-192x192.png",
-            "sizes": "192x192",
-            "type": "image/png"
-        },
-        {
-            "src": "android-chrome-512x512.png",
-            "sizes": "512x512",
-            "type": "image/png"
-        },
-        {
-            "src": "maskable_icon.png",
-            "sizes": "240x240",
-            "type": "image/png",
-            "purpose": "any maskable"
-        }
-    ],
-    "theme_color": "#ffffff",
-    "background_color": "#ffffff",
-    "display": "standalone"
+  "name": "JEM",
+  "short_name": "JEM",
+  "icons": [
+    {
+      "src": "/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "theme_color": "#ffffff",
+  "background_color": "#ffffff",
+  "display": "standalone"
 }
