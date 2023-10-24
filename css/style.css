@@ -301,7 +301,9 @@
 }
 
 .services__right-accordion {
-  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 5px;
   background: none;
   cursor: pointer;
   font-size: 48px;
@@ -315,7 +317,8 @@
 
 .active,
 .services__right-accordion:hover {
-  text-shadow: 1px 0 black, -1px 0 black, 0 -1px black, 0 1px black;
+  text-shadow: 0.5px 0 #2a3a66, -0.5px 0 #2a3a66, 0 -0.5px #2a3a66,
+    0 0.5px #2a3a66;
 }
 
 .services__right-accordionPanel {
@@ -330,9 +333,6 @@
 
 .services__right-accordion.active::before {
   content: '●';
-  position: absolute;
-  top: 15px;
-  left: -30px;
   font-size: 24px;
 }
 
