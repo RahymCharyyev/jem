@@ -303,7 +303,7 @@
 .services__right-accordion {
   display: flex;
   align-items: center;
-  gap: 5px;
+  gap: 25px;
   background: none;
   cursor: pointer;
   font-size: 48px;
@@ -317,8 +317,8 @@
 
 .active,
 .services__right-accordion:hover {
-  text-shadow: 0.5px 0 #2a3a66, -0.5px 0 #2a3a66, 0 -0.5px #2a3a66,
-    0 0.5px #2a3a66;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: var(--primary_color);
 }
 
 .services__right-accordionPanel {
@@ -329,6 +329,7 @@
   max-height: 0;
   overflow: hidden;
   transition: max-height 0.2s ease-out;
+  padding-left: 40px;
 }
 
 .services__right-accordion.active::before {
