@@ -269,20 +269,14 @@
   align-items: flex-start;
   gap: 180px;
 }
-/* 
-.believed__wrapper-undp {
-  aspect-ratio: 0.49;
-  width: 100%;
-  object-fit: cover;
-} */
 
 .services {
   display: flex;
   justify-content: space-between;
+  /* gap: 200px; */
 }
 
 .services__left {
-  max-width: 500px;
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -302,15 +296,44 @@
 .services__right {
   display: flex;
   flex-direction: column;
-  gap: 200px;
-  list-style: none;
+  justify-content: space-between;
+  gap: 70px;
 }
 
-.services__right-text {
+.services__right-accordion {
+  position: relative;
+  background: none;
+  cursor: pointer;
   font-size: 48px;
   color: var(--primary_color);
   font-weight: var(--light);
-  cursor: pointer;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+}
+
+.active,
+.services__right-accordion:hover {
+  text-shadow: 1px 0 black, -1px 0 black, 0 -1px black, 0 1px black;
+}
+
+.services__right-accordionPanel {
+  max-width: 560px;
+  font-size: 20px;
+  font-weight: normal;
+  color: var(--primary_color);
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+
+.services__right-accordion.active::before {
+  content: '●';
+  position: absolute;
+  top: 15px;
+  left: -30px;
+  font-size: 24px;
 }
 
 .explore {
