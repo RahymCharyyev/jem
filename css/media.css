@@ -156,15 +156,11 @@
     height: 700px;
   }
 
-  .services__right-accordion {
+  .services__right-summary {
     font-size: 40px;
   }
 
-  .services__right-accordion.active::before {
-    font-size: 22px;
-  }
-
-  .services__right-accordionPanel {
+  .services__right-text {
     font-size: 18px;
   }
 
@@ -257,11 +253,11 @@
     font-size: 18px;
   }
 
-  .services__right-accordion {
+  .services__right-summary {
     font-size: 32px;
   }
 
-  .services__right-accordion.active::before {
+  .services__right-summary.active::before {
     font-size: 20px;
   }
 
@@ -385,15 +381,15 @@
     gap: 150px;
   }
 
-  .services__right-accordion {
+  .services__right-summary {
     font-size: 24px;
   }
 
-  .services__right-accordion.active::before {
+  .services__right-summary.active::before {
     font-size: 18px;
   }
 
-  .services__right-accordionPanel {
+  .services__right-text {
     max-width: 400px;
     font-size: 16px;
   }
@@ -633,16 +629,16 @@
     gap: 80px;
   }
 
-  .services__right-accordion {
+  .services__right-summary {
     font-size: 24px;
     text-align: center;
   }
 
-  .services__right-accordion.active::before {
+  .services__right-summary.active::before {
     font-size: 16px;
   }
 
-  .services__right-accordionPanel {
+  .services__right-text {
     font-size: 14px;
   }
 
@@ -914,12 +910,12 @@
     gap: 80px;
   }
 
-  .services__right-accordion {
+  .services__right-summary {
     font-size: 20px;
     text-align: start;
   }
 
-  .services__right-accordion.active::before {
+  .services__right-summary.active::before {
     font-size: 14px;
   }
 
