@@ -314,6 +314,15 @@ details summary::-webkit-details-marker {
   list-style-type: none;
 }
 
+ul,
+summary {
+  list-style-type: none;
+}
+summary::marker {
+  color: #fff;
+  z-index: -5;
+}
+
 details[open] > summary::before {
   content: '\2022';
   position: absolute;
