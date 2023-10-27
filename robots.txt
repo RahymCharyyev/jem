@@ -1,5 +1,14 @@
+User-agent: Yandex
+Allow: /
+Disallow:
+Sitemap: https://bizjem.com/sitemap.xml
+
+User-agent: Googlebot
+Allow: /
+Disallow:
+Sitemap: https://bizjem.com/sitemap.xml
+
 User-agent: *
-Disallow: 
-Host: bizjem.com
-Host: www.bizjem.com
-Sitemap: http://bizjem.com/sitemap.xml
+Allow: /
+Disallow:
+Sitemap: https://bizjem.com/sitemap.xml

@@ -309,6 +309,11 @@
   font-weight: var(--light);
 }
 
+details summary::-webkit-details-marker {
+  display: none;
+  list-style-type: none;
+}
+
 details[open] > summary::before {
   content: '\2022';
   position: absolute;
